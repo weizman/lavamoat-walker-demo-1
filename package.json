@@ -1,0 +1,22 @@
+{
+  "name": "lavamoat-walker-demo-1",
+  "version": "0.0.1",
+  "description": "lavamoat-walker-demo-1",
+  "main": "index.js",
+  "dependencies": {
+    "@lavamoat/walker": "^0.0.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lavamoat/lavamoat-walker-demo-1.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/weizman/lavamoat-walker-demo-1/issues"
+    }
+  }
+}
