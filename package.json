@@ -4,7 +4,7 @@
   "description": "lavamoat-walker-demo-1",
   "main": "index.js",
   "dependencies": {
-    "@lavamoat/walker": "^0.0.1"
+    "@lavamoat/walker": "^0.2.0"
   },
   "scripts": {
     "start": "node index.js",

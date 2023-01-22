@@ -1,10 +1,11 @@
-const walk = require('@lavamoat/walker');
+const Walker = require('@lavamoat/walker');
 
 function walkAndSearch(start, end) {
    let result = false;
-   walk(start, (val) => {
-       return result = result || val === end;
-   });
+   const walker = new Walker(val => {
+      return result = result || val === end;
+   }, {maxRecursionLimit: 12});
+   walker.walk(start);
    return result;
 }
 
